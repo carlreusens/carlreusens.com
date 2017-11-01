@@ -24,16 +24,6 @@ td {
 .right {
   text-align: right;
 }
-.block {
-  display: inline;
-  padding: 5px 10px;
-}
-.footer-left {
-  float: left;
-}
-.footer-right {
-  float: right;
-}
 .contact td {
   padding: 5px 5px;
 }
@@ -68,7 +58,17 @@ footer {
   color: #bbb;
 }
 footer a {
+  display: inline;
   color: inherit;
+}
+.footer-left {
+  float: left;
+}
+.footer-right {
+  float: right;
+}
+footer .links{
+  padding-right: 10px;
 }
 .container {
   padding-right: 15px;
