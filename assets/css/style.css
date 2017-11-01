@@ -19,10 +19,20 @@ td {
   padding: 5px 20px;
 }
 .left {
-  text-align: right;
+  text-align: left;
 }
 .right {
-  text-align: left;
+  text-align: right;
+}
+.block {
+  display: inline;
+  padding: 5px 10px;
+}
+.footer-left {
+  float: left;
+}
+.footer-right {
+  float: right;
 }
 .contact td {
   padding: 5px 5px;
